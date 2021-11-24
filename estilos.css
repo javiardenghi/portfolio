@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #6665DD !important;
+	color: #000;
+	font-family: 'Roboto', sans-serif;
+}
+.contenedor{
+    width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+    
+}
+.header{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    background-image:url(./img/bannerprogramacion.jpg);
+    filter: brightness(95%);
+    background-position: center center;
+    border-radius: 10px;
+}
+.header>h1{
+    filter: brightness(170%);
+
+}
+.contenido{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+.tit-1{
+    margin: 20px;
+}
+.icons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr );
+    gap: 50px;
+    background-color: rgba(0,0,0,0.6);
+    padding: 30px;
+    border-radius: 15px;
+
+}
+.icons>img{
+    width: 80px;
+justify-self: center;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(41, 37, 37, 0.685);
+    color: blanchedalmond;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 50px;
+}
+.repos{
+    justify-self: center;
+}
+.repos>a>img{
+    border-radius: 100px;
+    width: 150px;
+}
+.contacto{
+    justify-self: center;
+}
+.contacto>a>img{
+    border-radius: 30px;
+    width: 150px;
+    padding: 10px;
+}
+.imgcar{
+    border-radius: 15px;
+    filter: brightness(80%);
+}
